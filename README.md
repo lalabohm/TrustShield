@@ -1,7 +1,6 @@
- <p align="center">
+<p align="center">
   <h1>TrustShield</h1>
 </p>
-
 
 ## Projeto de Fábrica de Projetos
 
