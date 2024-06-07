@@ -1,6 +1,6 @@
 # TrustShield
 
-## Projeto de Fábrica de Verificação de Produtos
+## Projeto de Fábrica de Projetos
 
 <p align="center">
  :pencil2: Projeto em desenvolvimento 
