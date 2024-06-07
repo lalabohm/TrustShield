@@ -1,4 +1,4 @@
-<p align="center" style="font-size: 2em; font-weight: bold;">
+<p align="center">
   TrustShield
 </p>
 
