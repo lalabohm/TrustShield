@@ -41,6 +41,7 @@ Nosso software analisa a URL, verificando diversos parâmetros e indicadores de 
 Resultados:
 
 O sistema retorna um veredicto sobre a autenticidade do produto, informando se é genuíno ou falso.
+#
 
 # :hammer:: Tecnologias Utilizadas:
  * `HTML` 
