@@ -1,5 +1,5 @@
-<p align="center">
-  <h1>TrustShield</h1>
+<p align="center" style="font-size: 2em; font-weight: bold;">
+  TrustShield
 </p>
 
 ## Projeto de Fábrica de Projetos
