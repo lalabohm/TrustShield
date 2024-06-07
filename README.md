@@ -10,11 +10,11 @@
 O nosso software tem como objetivo verificar se um produto é autêntico ou falso através da URL fornecida. Esta ferramenta é projetada para proteger os consumidores, combater a pirataria, apoiar marcas legítimas e contribuir para uma economia mais saudável.
 
 #
-###Missão
+### Missão
 Proteção ao Consumidor:
 #
 
-###Objetivo Primário: Proteger os consumidores contra fraudes e produtos de baixa qualidade, que podem, em alguns casos, ser perigosos.
+### Objetivo Primário: Proteger os consumidores contra fraudes e produtos de baixa qualidade, que podem, em alguns casos, ser perigosos.
 Como Ajudamos: Verificamos a autenticidade de um produto, garantindo que os consumidores recebam exatamente o que pagaram.
 Combate à Pirataria:
 #
