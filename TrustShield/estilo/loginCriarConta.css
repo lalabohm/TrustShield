@@ -1,95 +1,96 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0; /* Remove a margem padrão de todos os elementos */
+    padding: 0; /* Remove o padding padrão de todos os elementos */
+    box-sizing: border-box; /* Inclui o padding e a borda no cálculo da largura e altura dos elementos */
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #063b80;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2rem 1rem;
-    color: white;
+    font-family: Arial, sans-serif; /* Define a fonte Arial como a fonte principal */
+    background-color: #063b80; /* Define a cor de fundo do body como um tom de azul */
+    display: flex; /* Usa flexbox para o layout do body */
+    flex-direction: column; /* Define a direção dos itens flexíveis como coluna */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    padding: 2rem 1rem; /* Adiciona padding ao redor do body */
+    color: white; /* Define a cor do texto como branca */
 }
 
 header {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding: 1rem;
+    width: 100%; /* Define a largura do header como 100% */
+    display: flex; /* Usa flexbox para o layout do header */
+    justify-content: center; /* Centraliza os itens no eixo horizontal */
+    padding: 1rem; /* Adiciona padding ao header */
 }
 
 .logo {
-    width: 150px;
-    height: auto;
+    width: 150px; /* Define a largura da logo */
+    height: auto; /* Mantém a proporção original da altura */
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2rem;
-    width: 100%;
+    display: flex; /* Usa flexbox para o layout do container */
+    flex-direction: column; /* Define a direção dos itens flexíveis como coluna */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    gap: 2rem; /* Define um espaço entre os itens */
+    width: 100%; /* Define a largura do container como 100% */
 }
 
 section {
-    background: rgba(0, 0, 0, 0.6);
-    padding: 2rem;
-    border-radius: 10px;
-    max-width: 400px;
-    width: 100%;
-    text-align: center;
+    background: rgba(0, 0, 0, 0.6); /* Define um fundo semi-transparente preto */
+    padding: 2rem; /* Adiciona padding ao redor do section */
+    border-radius: 10px; /* Define bordas arredondadas */
+    max-width: 400px; /* Define a largura máxima como 400px */
+    width: 100%; /* Define a largura como 100% */
+    text-align: center; /* Centraliza o texto */
 }
 
 h2 {
-    margin-bottom: 1rem;
+    margin-bottom: 1rem; /* Adiciona uma margem inferior ao h2 */
 }
 
 .form {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+    display: flex; /* Usa flexbox para o layout do formulário */
+    flex-direction: column; /* Define a direção dos itens flexíveis como coluna */
+    gap: 1rem; /* Define um espaço entre os itens */
 }
 
 .form-group {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    display: flex; /* Usa flexbox para o layout do grupo de formulário */
+    flex-direction: column; /* Define a direção dos itens flexíveis como coluna */
+    align-items: flex-start; /* Alinha os itens à esquerda */
 }
 
 .form-group label {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.5rem; /* Adiciona uma margem inferior ao rótulo */
 }
 
 .form-group input {
-    padding: 0.75rem;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    width: 100%;
+    padding: 0.75rem; /* Adiciona padding ao redor do campo de entrada */
+    border-radius: 5px; /* Define bordas arredondadas */
+    border: 1px solid #ccc; /* Define uma borda de 1px sólida e cinza */
+    width: 100%; /* Define a largura como 100% */
 }
 
 .button {
-    padding: 0.75rem 1.5rem;
-    background-color: #6c63ff;
-    border: none;
-    border-radius: 5px;
-    color: white;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+    padding: 0.75rem 1.5rem; /* Adiciona padding ao redor do botão */
+    background-color: #6c63ff; /* Define a cor de fundo do botão como roxo */
+    border: none; /* Remove a borda do botão */
+    border-radius: 5px; /* Define bordas arredondadas */
+    color: white; /* Define a cor do texto como branca */
+    cursor: pointer; /* Muda o cursor para indicar que o elemento é clicável */
+    transition: background-color 0.3s ease; /* Adiciona uma transição suave para a cor de fundo */
 }
 
 .button:hover {
-    background-color: #534bcc;
+    background-color: #534bcc; /* Altera a cor de fundo do botão ao passar o mouse para um tom mais escuro de roxo */
 }
 
 .link {
-    color: #6c63ff;
-    text-decoration: none;
+    color: #6c63ff; /* Define a cor do link como roxo */
+    text-decoration: none; /* Remove a decoração do texto do link */
 }
 
 .link:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* Adiciona um sublinhado ao link ao passar o mouse */
 }
+
 
