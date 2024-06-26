@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR"> <!-- Define o idioma da página como português do Brasil -->
+<head>
+    <meta charset="UTF-8"> <!-- Define o conjunto de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura a viewport para dispositivos móveis -->
+    <title>Página Inicial</title> <!-- Define o título da página -->
+    <link rel="stylesheet" href="/estilo/bemVindo.css"> <!-- Link para a folha de estilos CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Otimiza a conexão para carregamento de fontes -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- Otimiza a conexão para carregamento de fontes com CORS -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Protest+Guerrilla&display=swap" rel="stylesheet"> <!-- Link para as fontes do Google -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Link para a biblioteca de ícones FontAwesome -->
+</head>
+<body>
+    <header>
+        <img src="/assets/trustshiedEscudo.png" alt="Trustshield Logo" class="logo"> <!-- Logo da Trustshield -->
+    </header>
+
+    <main class="container">
+        <section class="welcome-section">
+            <h1>Bem-vindo ao Trustshield</h1> <!-- Título de boas-vindas -->
+            <p>Seu software de autenticação para compras online.</p> <!-- Descrição curta -->
+            <div class="buttons">
+                <a href="/templates/criarConta.html" class="button">Começar Agora</a> <!-- Botão para criar conta -->
+                <a href="/templates/login.html" class="button secondary">Entrar</a> <!-- Botão para login -->
+            </div>
+        </section>
+        <section class="about-section">
+            <h1>Quem é a TrustShield</h1> <!-- Título da seção sobre a empresa -->
+            <p>A TrustShield é uma empresa dedicada a garantir a autenticidade das suas compras online, proporcionando segurança e tranquilidade aos consumidores. Com nossa tecnologia avançada, ajudamos você a evitar fraudes e compras equivocadas.</p> <!-- Descrição sobre a empresa -->
+        </section>
+
+        <section class="url-explanation-section">
+            <h2>Como Funciona a Análise da URL?</h2> <!-- Título da seção de explicação -->
+            <p>Depois de fazer login no site, você pode usar nosso software para analisar um site onde pretende comprar um produto. Siga os passos abaixo:</p>
+            <ol>
+                <li><strong>Copie a URL:</strong> A URL é o endereço do site que aparece na barra de endereço do navegador. Para copiar a URL, vá até o site desejado, clique com o botão direito do mouse na barra de endereço e selecione "Copiar".</li> <!-- Explicação passo a passo -->
+                <li><strong>Cole a URL:</strong> Volte para nosso site, clique no campo de texto fornecido, clique com o botão direito do mouse e selecione "Colar". A URL copiada aparecerá no campo de texto.</li>
+                <li><strong>Clique em "Analisar":</strong> Após colar a URL, clique no botão "Analisar". Nosso software irá verificar o site e fornecer um relatório detalhado sobre sua segurança, autenticidade e avaliações de outros compradores.</li>
+            </ol>
+            <p>Insira a URL no campo fornecido e clique em "Analisar" para receber um relatório detalhado.</p>
+        </section>
+
+        <section class="analysis-section">
+            <h2>O que analisamos?</h2> <!-- Título da seção de análise -->
+            <div class="analysis-cards">
+                <div class="card">
+                    <h3>Recursos do Site</h3>
+                    <p>Nosso software examina detalhadamente os recursos do site, verificando a qualidade do conteúdo, a navegabilidade e a experiência do usuário.</p> <!-- Cartão de análise sobre recursos do site -->
+                </div>
+                <div class="card">
+                    <h3>Avaliações dos Compradores</h3>
+                    <p>Analisamos os comentários e avaliações dos compradores para avaliar o nível de confiabilidade do site.</p> <!-- Cartão de análise sobre avaliações de compradores -->
+                </div>
+                <div class="card">
+                    <h3>Certificações de Segurança</h3>
+                    <p>Verificamos se o site possui certificações de segurança válidas, garantindo a proteção das suas informações pessoais e financeiras.</p> <!-- Cartão de análise sobre certificações de segurança -->
+                </div>
+            </div>
+        </section>
+
+        <section class="price-comparison-section">
+            <h2>Comparação de Preços</h2> <!-- Título da seção de comparação de preços -->
+            <div class="price-comparison">
+                <div class="price-item">
+                    <span class="price-number">1</span>
+                    <h3>Preços Praticados</h3>
+                    <p>Nosso software analisa e compara os preços do produto em diferentes sites, para que você possa identificar a melhor oferta.</p> <!-- Item de comparação sobre preços praticados -->
+                </div>
+                <div class="price-item">
+                    <span class="price-number">2</span>
+                    <h3>Tendências de Preço</h3>
+                    <p>Acompanhamos as variações de preço ao longo do tempo, permitindo que você identifique possíveis manipulações ou práticas abusivas.</p> <!-- Item de comparação sobre tendências de preço -->
+                </div>
+                <div class="price-item">
+                    <span class="price-number">3</span>
+                    <h3>Promoções e Descontos</h3>
+                    <p>Informamos sobre promoções, cupons de desconto e outras ofertas que podem significar economia na sua compra.</p> <!-- Item de comparação sobre promoções e descontos -->
+                </div>
+            </div>
+        </section>
+
+        <section class="image-verification-section">
+            <h2>Verificação de Imagens</h2> <!-- Título da seção de verificação de imagens -->
+            <div class="verification-cards">
+                <div class="card">
+                    <h3>Autenticidade das Imagens</h3>
+                    <p>Nosso software analisa minuciosamente as imagens do produto, verificando sua originalidade e integridade.</p> <!-- Cartão de verificação sobre autenticidade das imagens -->
+                </div>
+                <div class="card">
+                    <h3>Detecção de Edições</h3>
+                    <p>Identificamos possíveis manipulações ou alterações nas imagens, garantindo que você visualize o produto real.</p> <!-- Cartão de verificação sobre detecção de edições -->
+                </div>
+                <div class="card">
+                    <h3>Relatório Detalhado</h3>
+                    <p>Fornecemos um relatório completo sobre a análise das imagens, incluindo informações sobre sua autenticidade.</p> <!-- Cartão de verificação sobre relatório detalhado -->
+                </div>
+            </div>
+        </section>
+
+        <section class="social-section">
+            <h2>Siga-nos nas Redes Sociais</h2> <!-- Título da seção de redes sociais -->
+            <div class="social-icons">
+                <a href="https://www.instagram.com" class="social-icon" target="_blank"><i class="fab fa-instagram"></i></a> <!-- Ícone do Instagram -->
+                <a href="https://www.facebook.com" class="social-icon" target="_blank"><i class="fab fa-facebook-f"></i></a> <!-- Ícone do Facebook -->
+                <a href="https://www.twitter.com" class="social-icon" target="_blank"><i class="fab fa-twitter"></i></a> <!-- Ícone do Twitter -->
+            </div>
+        </section>
+    </main>
+</body>
+</html>
+
