@@ -4,10 +4,6 @@
 
 ## Projeto de Fábrica de Projetos
 
-<p align="center">
- :pencil2: Projeto em desenvolvimento 
-</p>
-
 # Sobre o Projeto:
 O nosso software tem como objetivo verificar se um produto é autêntico ou falso através da URL fornecida. Esta ferramenta é projetada para proteger os consumidores, combater a pirataria, apoiar marcas legítimas e contribuir para uma economia mais saudável.
 
